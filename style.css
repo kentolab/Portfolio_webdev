@@ -44,6 +44,13 @@ nav a:hover {
     color: #38bdf8;
 }
 
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 /* セクション共通 */
 main {
     max-width: 1000px;
